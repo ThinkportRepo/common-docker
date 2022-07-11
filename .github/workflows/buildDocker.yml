@@ -18,4 +18,4 @@ jobs:
         run: mvn clean install
 
       - name: Build Docker image
-        run: docker build -f base/Dockerfile.ubi8 --build-arg ARTIFACT_ID=cp-base-new --build-arg PROJECT_VERSION=7.0.1 base/
+        run: docker buildx build --platform linux/aarch64,linux/amd64 -f base/Dockerfile.ubi8 --build-arg ARTIFACT_ID=cp-base-new --build-arg PROJECT_VERSION=7.0.1 base/

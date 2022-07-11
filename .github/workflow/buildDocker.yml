@@ -1,7 +1,7 @@
 name: Build Docker Images
 on:
   push:
-    branches: feature/arm64-Build-v7.0.1
+
 
 jobs:
   build:

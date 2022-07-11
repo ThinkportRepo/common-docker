@@ -34,3 +34,5 @@ jobs:
           build-args: |
             ARTIFACT_ID=cp-base-new
             PROJECT_VERSION=7.0.1
+
+      - run: docker images

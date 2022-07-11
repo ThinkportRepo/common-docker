@@ -18,6 +18,8 @@ jobs:
       - name: Build project
         run: mvn clean install
 
+      - run: ls base/target/
+
       - uses: actions/upload-artifact@v3
         with:
           name: cp-base-new

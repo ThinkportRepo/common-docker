@@ -21,4 +21,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: cp-base-new
-          path: target/cp-base-new-7.0.1-package
+          path: base/target/cp-base-new-7.0.1-package

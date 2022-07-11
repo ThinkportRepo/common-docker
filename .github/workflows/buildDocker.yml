@@ -16,7 +16,7 @@ jobs:
           cache: 'maven'
 
       - name: Build project
-        run: mvn clean install package -Ddocker.skip-build=true
+        run: mvn clean install package
 
       - run: ls base/target/
 

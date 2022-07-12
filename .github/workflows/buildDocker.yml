@@ -36,7 +36,7 @@ jobs:
           file: base/Dockerfile.ubi8
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: thinkportgmbh/cp-base-new:ubi8-latest
+          tags: thinkportgmbh/cp-base-new:7.0.1
           build-args: |
             ARTIFACT_ID=cp-base-new
             PROJECT_VERSION=7.0.1

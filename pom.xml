@@ -58,4 +58,11 @@
         `-Ddocker.skip-security-update-check=true` -->
         <docker.skip-security-update-check>false</docker.skip-security-update-check>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>confluent</id>
+            <url>https://packages.confluent.io/maven/</url>
+        </repository>
+    </repositories>
 </project>
